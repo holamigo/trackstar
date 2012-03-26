@@ -1,0 +1,499 @@
+2012/03/24 00:48:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('gii')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/trackstar/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/trackstar/index.php?r=gii
+HTTP_REFERER=http://yiibook.com/book/agile_web_application_development_with_yii1.1_and_php5/chapter-5
+---
+2012/03/24 00:59:48 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testdrive.project' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `project`.
+in /var/www/trackstar/index.php (13)
+2012/03/24 01:00:13 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testdrive.project' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `project`.
+in /var/www/trackstar/index.php (13)
+2012/03/24 01:00:15 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testdrive.project' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `project`.
+in /var/www/trackstar/index.php (13)
+2012/03/24 01:01:10 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testdrive.project' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `project`.
+in /var/www/trackstar/index.php (13)
+2012/03/24 01:03:52 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testdrive.project' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `project`.
+in /var/www/trackstar/index.php (13)
+2012/03/24 01:03:55 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testdrive.project' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `project`.
+in /var/www/trackstar/index.php (13)
+2012/03/24 01:03:56 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testdrive.project' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `project`.
+in /var/www/trackstar/index.php (13)
+2012/03/24 01:04:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testdrive.project' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `project`.
+in /var/www/trackstar/index.php (13)
+2012/03/24 01:04:38 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testdrive.project' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `project`.
+in /var/www/trackstar/index.php (13)
+2012/03/24 01:05:04 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testdrive.project' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `project`.
+in /var/www/trackstar/index.php (13)
+2012/03/24 01:05:05 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testdrive.project' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `project`.
+in /var/www/trackstar/index.php (13)
+2012/03/24 01:07:54 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testdrive.project' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `project`.
+in /var/www/trackstar/index.php (13)
+2012/03/24 01:07:56 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testdrive.project' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `project`.
+in /var/www/trackstar/index.php (13)
+2012/03/25 01:14:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "seache".' in /var/www/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(271): CController->missingAction('seache')
+#1 /var/www/yii/framework/web/CWebApplication.php(276): CController->run('seache')
+#2 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('project/seache')
+#3 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/trackstar/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/trackstar/index.php?r=project/seache
+---
+2012/03/25 01:14:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "search".' in /var/www/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(271): CController->missingAction('search')
+#1 /var/www/yii/framework/web/CWebApplication.php(276): CController->run('search')
+#2 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('project/search')
+#3 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/trackstar/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/trackstar/index.php?r=project/search
+---
+2012/03/25 01:14:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "seache".' in /var/www/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(271): CController->missingAction('seache')
+#1 /var/www/yii/framework/web/CWebApplication.php(276): CController->run('seache')
+#2 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('project/seache')
+#3 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/trackstar/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/trackstar/index.php?r=project/seache
+---
+2012/03/25 04:18:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "project /create".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('project /create')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/trackstar/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/trackstar/index.php?r=project%20/create
+HTTP_REFERER=http://yiibook.com/book/agile_web_application_development_with_yii1.1_and_php5/chapter-5
+---
+2012/03/25 04:18:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "project /create".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('project /create')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/trackstar/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/trackstar/index.php?r=project%20/create
+HTTP_REFERER=http://yiibook.com/book/agile_web_application_development_with_yii1.1_and_php5/chapter-5
+---
+2012/03/25 04:19:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yii/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /var/www/yii/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yii/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#6 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(276): CController->run('admin')
+#8 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('project/admin')
+#9 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /var/www/trackstar/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/trackstar/index.php?r=project/admin
+HTTP_REFERER=http://localhost/trackstar/index.php?r=site/login
+---
+2012/03/25 04:19:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "seache".' in /var/www/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(271): CController->missingAction('seache')
+#1 /var/www/yii/framework/web/CWebApplication.php(276): CController->run('seache')
+#2 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('project/seache')
+#3 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/trackstar/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/trackstar/index.php?r=project/seache
+---
+2012/03/25 04:20:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "seache".' in /var/www/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(271): CController->missingAction('seache')
+#1 /var/www/yii/framework/web/CWebApplication.php(276): CController->run('seache')
+#2 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('project/seache')
+#3 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/trackstar/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/trackstar/index.php?r=project/seache
+---
+2012/03/25 04:20:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "seache".' in /var/www/yii/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(271): CController->missingAction('seache')
+#1 /var/www/yii/framework/web/CWebApplication.php(276): CController->run('seache')
+#2 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('project/seache')
+#3 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/trackstar/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/trackstar/index.php?r=project/seache
+---
+2012/03/25 04:21:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /var/www/trackstar/protected/controllers/ProjectController.php:160
+Stack trace:
+#0 /var/www/trackstar/protected/controllers/ProjectController.php(54): ProjectController->loadModel('4')
+#1 [internal function]: ProjectController->actionView('4')
+#2 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#4 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(276): CController->run('view')
+#13 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('project/view')
+#14 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /var/www/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php?r=project/view&id=4
+HTTP_REFERER=http://yiibook.com/book/agile_web_application_development_with_yii1.1_and_php5/chapter-5
+---
+2012/03/25 04:21:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /var/www/trackstar/protected/controllers/ProjectController.php:160
+Stack trace:
+#0 /var/www/trackstar/protected/controllers/ProjectController.php(54): ProjectController->loadModel('4')
+#1 [internal function]: ProjectController->actionView('4')
+#2 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#4 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(276): CController->run('view')
+#13 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('project/view')
+#14 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /var/www/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php?r=project/view&id=4
+HTTP_REFERER=http://yiibook.com/book/agile_web_application_development_with_yii1.1_and_php5/chapter-5
+---
+2012/03/25 04:22:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "project /create".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('project /create')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/trackstar/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/trackstar/index.php?r=project%20/create
+HTTP_REFERER=http://yiibook.com/book/agile_web_application_development_with_yii1.1_and_php5/chapter-5
+---
+2012/03/25 05:03:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /var/www/trackstar/protected/controllers/ProjectController.php:160
+Stack trace:
+#0 /var/www/trackstar/protected/controllers/ProjectController.php(54): ProjectController->loadModel('4')
+#1 [internal function]: ProjectController->actionView('4')
+#2 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#4 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(276): CController->run('view')
+#13 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('project/view')
+#14 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /var/www/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php?r=project/view&id=4
+HTTP_REFERER=http://yiibook.com/book/agile_web_application_development_with_yii1.1_and_php5/chapter-5
+---
+2012/03/25 05:05:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yii/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /var/www/yii/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yii/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#6 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(276): CController->run('admin')
+#8 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('project/admin')
+#9 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /var/www/trackstar/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/trackstar/index.php?r=project/admin
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=14
+---
+2012/03/25 05:06:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yii/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /var/www/yii/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yii/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#6 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(276): CController->run('admin')
+#8 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('project/admin')
+#9 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /var/www/trackstar/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/trackstar/index.php?r=project/admin
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=14
+---
+2012/03/26 15:13:12 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yii/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /var/www/yii/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yii/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#6 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(276): CController->run('admin')
+#8 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('issue/admin')
+#9 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /var/www/trackstar/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/trackstar/index.php?r=issue/admin
+HTTP_REFERER=http://localhost/trackstar/index.php?r=issue/index
+---
+2012/03/26 16:09:28 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`testdrive`.`tbl_issue`, CONSTRAINT `FK_issue_project` FOREIGN KEY (`project_id`) REFERENCES `tbl_project` (`id`) ON DELETE CASCADE). The SQL statement executed was: INSERT INTO `tbl_issue` (`name`, `description`, `project_id`, `type_id`, `status_id`, `owner_id`, `requester_id`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10).
+in /var/www/trackstar/protected/controllers/IssueController.php (72)
+in /var/www/trackstar/index.php (13)
+2012/03/26 16:09:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`testdrive`.`tbl_issue`, CONSTRAINT `FK_issue_project` FOREIGN KEY (`project_id`) REFERENCES `tbl_project` (`id`) ON DELETE CASCADE). The SQL statement executed was: INSERT INTO `tbl_issue` (`name`, `description`, `project_id`, `type_id`, `status_id`, `owner_id`, `requester_id`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10)' in /var/www/yii/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1014): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(787): CActiveRecord->insert(NULL)
+#2 /var/www/trackstar/protected/controllers/IssueController.php(72): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(50): IssueController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(276): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('issue/create')
+#14 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /var/www/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php?r=issue/create
+HTTP_REFERER=http://localhost/trackstar/index.php?r=issue/create
+---
+2012/03/26 16:09:58 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`testdrive`.`tbl_issue`, CONSTRAINT `FK_issue_project` FOREIGN KEY (`project_id`) REFERENCES `tbl_project` (`id`) ON DELETE CASCADE). The SQL statement executed was: INSERT INTO `tbl_issue` (`name`, `description`, `project_id`, `type_id`, `status_id`, `owner_id`, `requester_id`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10).
+in /var/www/trackstar/protected/controllers/IssueController.php (72)
+in /var/www/trackstar/index.php (13)
+2012/03/26 16:09:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`testdrive`.`tbl_issue`, CONSTRAINT `FK_issue_project` FOREIGN KEY (`project_id`) REFERENCES `tbl_project` (`id`) ON DELETE CASCADE). The SQL statement executed was: INSERT INTO `tbl_issue` (`name`, `description`, `project_id`, `type_id`, `status_id`, `owner_id`, `requester_id`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10)' in /var/www/yii/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1014): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(787): CActiveRecord->insert(NULL)
+#2 /var/www/trackstar/protected/controllers/IssueController.php(72): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(50): IssueController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(276): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('issue/create')
+#14 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /var/www/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php?r=issue/create
+HTTP_REFERER=http://localhost/trackstar/index.php?r=issue/create
+---
+2012/03/26 16:12:15 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`testdrive`.`tbl_issue`, CONSTRAINT `FK_issue_project` FOREIGN KEY (`project_id`) REFERENCES `tbl_project` (`id`) ON DELETE CASCADE). The SQL statement executed was: INSERT INTO `tbl_issue` (`name`, `description`, `project_id`, `type_id`, `status_id`, `owner_id`, `requester_id`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10).
+in /var/www/trackstar/protected/controllers/IssueController.php (72)
+in /var/www/trackstar/index.php (13)
+2012/03/26 16:12:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`testdrive`.`tbl_issue`, CONSTRAINT `FK_issue_project` FOREIGN KEY (`project_id`) REFERENCES `tbl_project` (`id`) ON DELETE CASCADE). The SQL statement executed was: INSERT INTO `tbl_issue` (`name`, `description`, `project_id`, `type_id`, `status_id`, `owner_id`, `requester_id`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10)' in /var/www/yii/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1014): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(787): CActiveRecord->insert(NULL)
+#2 /var/www/trackstar/protected/controllers/IssueController.php(72): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(50): IssueController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(276): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('issue/create')
+#14 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /var/www/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php?r=issue/create
+HTTP_REFERER=http://localhost/trackstar/index.php?r=issue/create
+---
+2012/03/26 16:13:37 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`testdrive`.`tbl_issue`, CONSTRAINT `FK_issue_project` FOREIGN KEY (`project_id`) REFERENCES `tbl_project` (`id`) ON DELETE CASCADE). The SQL statement executed was: INSERT INTO `tbl_issue` (`name`, `description`, `project_id`, `type_id`, `status_id`, `owner_id`, `requester_id`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10).
+in /var/www/trackstar/protected/controllers/IssueController.php (72)
+in /var/www/trackstar/index.php (13)
+2012/03/26 16:13:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`testdrive`.`tbl_issue`, CONSTRAINT `FK_issue_project` FOREIGN KEY (`project_id`) REFERENCES `tbl_project` (`id`) ON DELETE CASCADE). The SQL statement executed was: INSERT INTO `tbl_issue` (`name`, `description`, `project_id`, `type_id`, `status_id`, `owner_id`, `requester_id`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10)' in /var/www/yii/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1014): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(787): CActiveRecord->insert(NULL)
+#2 /var/www/trackstar/protected/controllers/IssueController.php(72): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(50): IssueController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(276): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('issue/create')
+#14 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /var/www/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php?r=issue/create
+HTTP_REFERER=http://localhost/trackstar/index.php?r=issue/create
+---
+2012/03/26 16:14:59 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`testdrive`.`tbl_issue`, CONSTRAINT `FK_issue_project` FOREIGN KEY (`project_id`) REFERENCES `tbl_project` (`id`) ON DELETE CASCADE). The SQL statement executed was: UPDATE `tbl_issue` SET `id`=:yp0, `name`=:yp1, `description`=:yp2, `project_id`=:yp3, `type_id`=:yp4, `status_id`=:yp5, `owner_id`=:yp6, `requester_id`=:yp7, `create_time`=:yp8, `create_user_id`=:yp9, `update_time`=:yp10, `update_user_id`=:yp11 WHERE `tbl_issue`.`id`=4.
+in /var/www/trackstar/protected/controllers/IssueController.php (96)
+in /var/www/trackstar/index.php (13)
+2012/03/26 16:14:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`testdrive`.`tbl_issue`, CONSTRAINT `FK_issue_project` FOREIGN KEY (`project_id`) REFERENCES `tbl_project` (`id`) ON DELETE CASCADE). The SQL statement executed was: UPDATE `tbl_issue` SET `id`=:yp0, `name`=:yp1, `description`=:yp2, `project_id`=:yp3, `type_id`=:yp4, `status_id`=:yp5, `owner_id`=:yp6, `requester_id`=:yp7, `create_time`=:yp8, `create_user_id`=:yp9, `update_time`=:yp10, `update_user_id`=:yp11 WHERE `tbl_issue`.`id`=4' in /var/www/yii/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1681): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(1061): CActiveRecord->updateByPk('4', Array)
+#2 /var/www/yii/framework/db/ar/CActiveRecord.php(787): CActiveRecord->update(NULL)
+#3 /var/www/trackstar/protected/controllers/IssueController.php(96): CActiveRecord->save()
+#4 [internal function]: IssueController->actionUpdate('4')
+#5 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(IssueController), Array)
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(IssueController), Object(ReflectionMethod), Array)
+#7 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#10 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#14 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /var/www/yii/framework/web/CWebApplication.php(276): CController->run('update')
+#16 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('issue/update')
+#17 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /var/www/trackstar/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/trackstar/index.php?r=issue/update&id=4
+HTTP_REFERER=http://localhost/trackstar/index.php?r=issue/update&id=4
+---
+2012/03/26 16:16:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yii/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /var/www/yii/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yii/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#6 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(276): CController->run('admin')
+#8 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('issue/admin')
+#9 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /var/www/trackstar/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/trackstar/index.php?r=issue/admin
+HTTP_REFERER=http://localhost/trackstar/index.php?r=issue/index
+---
+2012/03/26 16:16:37 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yii/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /var/www/yii/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yii/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#6 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yii/framework/web/CWebApplication.php(276): CController->run('admin')
+#8 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('issue/admin')
+#9 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /var/www/trackstar/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/trackstar/index.php?r=issue/admin
+HTTP_REFERER=http://localhost/trackstar/index.php?r=issue/view&id=4
+---
+2012/03/26 16:17:25 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`testdrive`.`tbl_issue`, CONSTRAINT `FK_issue_project` FOREIGN KEY (`project_id`) REFERENCES `tbl_project` (`id`) ON DELETE CASCADE). The SQL statement executed was: UPDATE `tbl_issue` SET `id`=:yp0, `name`=:yp1, `description`=:yp2, `project_id`=:yp3, `type_id`=:yp4, `status_id`=:yp5, `owner_id`=:yp6, `requester_id`=:yp7, `create_time`=:yp8, `create_user_id`=:yp9, `update_time`=:yp10, `update_user_id`=:yp11 WHERE `tbl_issue`.`id`=4.
+in /var/www/trackstar/protected/controllers/IssueController.php (96)
+in /var/www/trackstar/index.php (13)
+2012/03/26 16:17:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`testdrive`.`tbl_issue`, CONSTRAINT `FK_issue_project` FOREIGN KEY (`project_id`) REFERENCES `tbl_project` (`id`) ON DELETE CASCADE). The SQL statement executed was: UPDATE `tbl_issue` SET `id`=:yp0, `name`=:yp1, `description`=:yp2, `project_id`=:yp3, `type_id`=:yp4, `status_id`=:yp5, `owner_id`=:yp6, `requester_id`=:yp7, `create_time`=:yp8, `create_user_id`=:yp9, `update_time`=:yp10, `update_user_id`=:yp11 WHERE `tbl_issue`.`id`=4' in /var/www/yii/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1681): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(1061): CActiveRecord->updateByPk('4', Array)
+#2 /var/www/yii/framework/db/ar/CActiveRecord.php(787): CActiveRecord->update(NULL)
+#3 /var/www/trackstar/protected/controllers/IssueController.php(96): CActiveRecord->save()
+#4 [internal function]: IssueController->actionUpdate('4')
+#5 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(IssueController), Array)
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(IssueController), Object(ReflectionMethod), Array)
+#7 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#10 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#14 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /var/www/yii/framework/web/CWebApplication.php(276): CController->run('update')
+#16 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('issue/update')
+#17 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /var/www/trackstar/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/trackstar/index.php?r=issue/update&id=4
+HTTP_REFERER=http://localhost/trackstar/index.php?r=issue/update&id=4
+---
+2012/03/26 16:18:26 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`testdrive`.`tbl_issue`, CONSTRAINT `FK_issue_project` FOREIGN KEY (`project_id`) REFERENCES `tbl_project` (`id`) ON DELETE CASCADE). The SQL statement executed was: UPDATE `tbl_issue` SET `id`=:yp0, `name`=:yp1, `description`=:yp2, `project_id`=:yp3, `type_id`=:yp4, `status_id`=:yp5, `owner_id`=:yp6, `requester_id`=:yp7, `create_time`=:yp8, `create_user_id`=:yp9, `update_time`=:yp10, `update_user_id`=:yp11 WHERE `tbl_issue`.`id`=4.
+in /var/www/trackstar/protected/controllers/IssueController.php (96)
+in /var/www/trackstar/index.php (13)
+2012/03/26 16:18:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`testdrive`.`tbl_issue`, CONSTRAINT `FK_issue_project` FOREIGN KEY (`project_id`) REFERENCES `tbl_project` (`id`) ON DELETE CASCADE). The SQL statement executed was: UPDATE `tbl_issue` SET `id`=:yp0, `name`=:yp1, `description`=:yp2, `project_id`=:yp3, `type_id`=:yp4, `status_id`=:yp5, `owner_id`=:yp6, `requester_id`=:yp7, `create_time`=:yp8, `create_user_id`=:yp9, `update_time`=:yp10, `update_user_id`=:yp11 WHERE `tbl_issue`.`id`=4' in /var/www/yii/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1681): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(1061): CActiveRecord->updateByPk('4', Array)
+#2 /var/www/yii/framework/db/ar/CActiveRecord.php(787): CActiveRecord->update(NULL)
+#3 /var/www/trackstar/protected/controllers/IssueController.php(96): CActiveRecord->save()
+#4 [internal function]: IssueController->actionUpdate('4')
+#5 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(IssueController), Array)
+#6 /var/www/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(IssueController), Object(ReflectionMethod), Array)
+#7 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#10 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#14 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /var/www/yii/framework/web/CWebApplication.php(276): CController->run('update')
+#16 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('issue/update')
+#17 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /var/www/trackstar/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/trackstar/index.php?r=issue/update&id=4
+HTTP_REFERER=http://localhost/trackstar/index.php?r=issue/update&id=4
+---
+2012/03/26 16:23:26 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`testdrive`.`tbl_issue`, CONSTRAINT `FK_issue_project` FOREIGN KEY (`project_id`) REFERENCES `tbl_project` (`id`) ON DELETE CASCADE). The SQL statement executed was: INSERT INTO `tbl_issue` (`name`, `description`, `project_id`, `type_id`, `status_id`, `owner_id`, `requester_id`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10).
+in /var/www/trackstar/protected/controllers/IssueController.php (72)
+in /var/www/trackstar/index.php (13)
+2012/03/26 16:23:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`testdrive`.`tbl_issue`, CONSTRAINT `FK_issue_project` FOREIGN KEY (`project_id`) REFERENCES `tbl_project` (`id`) ON DELETE CASCADE). The SQL statement executed was: INSERT INTO `tbl_issue` (`name`, `description`, `project_id`, `type_id`, `status_id`, `owner_id`, `requester_id`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10)' in /var/www/yii/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1014): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(787): CActiveRecord->insert(NULL)
+#2 /var/www/trackstar/protected/controllers/IssueController.php(72): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(50): IssueController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(276): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('issue/create')
+#14 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /var/www/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php?r=issue/create
+HTTP_REFERER=http://localhost/trackstar/index.php?r=issue/create
+---
